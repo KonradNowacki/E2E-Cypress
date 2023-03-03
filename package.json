@@ -1,0 +1,19 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Cypress E2E project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "E2E",
+    "Cypress",
+    "testing"
+  ],
+  "author": "Konrad Nowacki",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}

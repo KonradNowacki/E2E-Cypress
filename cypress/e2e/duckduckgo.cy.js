@@ -48,7 +48,9 @@ describe('example to-do app', () => {
   it('should correctly change DDG language', () => {
     cy.get('.header__button--menu').click()
     cy.get('.nav-menu--slideout').contains('All Settings').click()
-    // TODO KN Add checking if language has changed
+    cy.get('select#setting_kad').select('pl_PL')
+    cy.get('p.frm__label').contains('Język')
+    cy.get('p.frm__desc').contains('Zmienia język na całej stronie')
   });
 
 })
